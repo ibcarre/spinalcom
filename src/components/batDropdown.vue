@@ -67,6 +67,7 @@ export default {
       // supprime du store l'id selectionné et les étages pour permettre de revenir à l'état initial
       this.$store.dispatch("selectBuildingID", null);
       this.$store.dispatch("selectFloor", null);
+      this.$store.dispatch("fetchBuildings");
       this.away();
     },
     filtering() {
