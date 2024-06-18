@@ -119,4 +119,12 @@ h1 {
   border-bottom-left-radius: 2rem !important;
   border-bottom-right-radius: 0;
 }
+@media (max-width: 640px) {
+  header {
+    flex-direction: column-reverse;
+  }
+  .main_container {
+    flex-direction: column;
+  }
+}
 </style>

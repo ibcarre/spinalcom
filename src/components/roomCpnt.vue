@@ -77,4 +77,13 @@ ul {
   overflow-y: auto;
   overflow-x: hidden;
 }
+@media (max-width: 640px) {
+  .container {
+    position: initial;
+    margin-bottom: 50px;
+  }
+  ul {
+    position: initial;
+  }
+}
 </style>

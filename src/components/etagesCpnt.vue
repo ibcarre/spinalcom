@@ -98,4 +98,14 @@ ul {
 li {
   list-style: none;
 }
+
+@media (max-width: 640px) {
+  .list {
+    position: initial;
+    overflow-y: hidden;
+  }
+  ul {
+    position: initial;
+  }
+}
 </style>
