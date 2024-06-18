@@ -79,7 +79,7 @@ export default {
   height: 80%;
   margin-top: 20px;
   position: relative;
-  overflow-y: scroll;
+  overflow-y: auto;
   overflow-x: hidden;
 }
 ul {

@@ -93,7 +93,7 @@ const store = new Vuex.Store({
       commit("SET_SELECTEDFLOOR", floorId);
     },
     floorList({ commit }, buildingFloors) {
-      //set la liste d'étages
+      //set la liste
       commit("SET_BUILDINGS", buildingFloors);
     },
   },

@@ -74,7 +74,7 @@ ul {
   margin-top: 10px;
   margin-bottom: 10px;
   position: relative;
-  overflow-y: scroll;
+  overflow-y: auto;
   overflow-x: hidden;
 }
 </style>
